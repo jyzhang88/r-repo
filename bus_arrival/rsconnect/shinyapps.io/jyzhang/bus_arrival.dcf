@@ -3,9 +3,8 @@ title: bus_arrival
 account: jyzhang
 server: shinyapps.io
 appId: 153085
-bundleId: 695843
+bundleId: 696956
 url: https://jyzhang.shinyapps.io/bus_arrival/
-when: 1485841359.66285
+when: 1485917959.59752
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: .gitignore.txt|actionButton.R|bus_arrival.R|LTA_DataMall_API_User_Guide.pdf
