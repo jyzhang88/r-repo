@@ -86,13 +86,14 @@ title <- "Annual Measles Cases (per 100,000)"
 
 #-----------------------------------------------------------------------------#
 # using ggplot(), geom_tile() to create a heatmap
+# check if variable year is of factor class
 ggplot(mden, aes(y = state, x = variable, fill = value)) +
       geom_tile(color = "white", width = 0.9, height = 0.9) +
       theme(panel.grid.major = element_blank(),
+            panel.background = element_blank(),
             axis.line.y = element_blank(),
             axis.line.x = element_line(color = "black"),
-            axis.ticks.y = element_blank(),
-            panel.background = element_blank()) +
+            axis.ticks.y = element_blank()) +
       scale_fill_gradientn(colours = cols,
                            breaks = bks,
                            labels = lbs,
